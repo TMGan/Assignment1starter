@@ -78,29 +78,27 @@ justify-content: center;
  .section-4 {
     width:100%;
     flex-direction: row;
-    align-items:center;
-display: inline-block;
-color:white;
+    align-items:end;
+    color:white;
 
  }
 
- .container2 {
+ .container-2 {
     display:flex;
-    align-items:center;
     height:100%;
  }
 
- .column{
-    width:50%;
-    display:table;
-    padding:3px
+ .left-side{
+    flex: 400px;
+    align-items: center;
+    justify-content: start;
     
  }
 
- .row{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+ .right-side{
+    flex: 300px;
+    padding-right:100px;
+    align-items: center;
  }
 
  
