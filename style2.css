@@ -96,7 +96,7 @@ justify-content: center;
  }
 
  .right-side{
-    flex: 300px;
+    flex: 200px;
     padding-right:100px;
     align-items: center;
  }
